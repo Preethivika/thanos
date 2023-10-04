@@ -27,4 +27,4 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - run: make react-app-lint
+      - run: make react-app-lint-fix

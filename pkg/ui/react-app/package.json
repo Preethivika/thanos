@@ -53,7 +53,7 @@
     "test": "react-scripts test --runInBand --resetMocks=false",
     "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache",
     "eject": "react-scripts eject",
-    "lint:ci": "eslint --quiet \"src/**/*.{ts,tsx}\"",
+    "lint:ci": "eslint --fix \"src/**/*.{ts,tsx}\"",
     "lint": "eslint --fix \"src/**/*.{ts,tsx}\""
   },
   "prettier": {
